@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./list.css" />
+    <title>Users list</title>
+  </head>
+  <body>
+    <section id="main">
+      <h1>Список пользователей</h1>
+      <div class="main--block">
+        <div>
+          <input type="text" placeholder="Поиск..." />
+
+          <select name="select">
+            <option value="default" selected disabled>По умолчанию</option>
+            <option value="abs">По имени А-Я</option>
+            <option value="desc">По имени Я-А</option>
+          </select>
+        </div>
+
+        <ul class="user--lists">
+          <!-- <li class="user--lists__list">
+            <div>
+              <p class="user--lists__list--name">Name</p>
+              <p class="user--lists__list--email">email</p>
+              <p class="user--lists__list--address">adress</p>
+            </div>
+            <p class="user--lists__list--phone">Phone</p>
+          </li> -->
+        </ul>
+
+        <h1 class="pust">Список пуст!!!</h1>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
