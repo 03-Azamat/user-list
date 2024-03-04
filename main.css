@@ -23,6 +23,7 @@ h1 {
 }
 
 input[type="text"] {
+  background-color: #f3f8fe;
   border: 1px solid #6eaffd;
   border-radius: 6px;
   width: 100%;
@@ -33,6 +34,10 @@ input[type="text"] {
   color: black;
   padding-left: 20px;
   margin-bottom: 24px;
+}
+
+input[type="text"]:focus {
+  background-color: transparent;
 }
 
 input[type="text"]::-webkit-input-placeholder {
@@ -63,7 +68,7 @@ select:focus {
 
 .main--block {
   padding: 27px;
-  margin: auto;
+  margin: 30px auto;
   max-width: 900px;
   min-height: 30vh;
   background-color: white;
